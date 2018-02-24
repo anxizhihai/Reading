@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>登陆注册</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <div class="main-bg">
+        <header>
+            <div class="header-bg">
+                <a href="#">
+                    <span>悦读项目</span>
+                </a>
+            </div>
+        </header>
+        <div class="main-login-bg">
+            <div class="login-title">
+                <a href="javascript:void(0)" class="mya1" id="mya" onclick="myonclick()">注册</a>
+                <a href="javascript:void(0)" class="mya2" id="myaa" onclick="myonclick1()">登录</a>
+            </div>
+
+            <!--第一个盒子-->
+            <div id="mydiv2-1">
+                <form action="">
+                    <div class="login-input">
+                        <input type="text" id="myphone" name="txtPhone" maxlength="11" placeholder="请输入手机号码">
+                    </div>
+                    <div class="login-inputSP"><span class="myspan1" id="myspan1"></span></div>
+                    <div class="login-input ">
+                        <input type="text" class="textcode" id="textcode" name="txtCode" maxlength="6" placeholder="请输入短信验证码">
+                        <button type="button" class="btncode" id="btnyz">获取验证码</button>
+                    </div>
+                    <div class="login-inputSP"><span class="myspan1" id="myspan4"></span></div>
+                    <div class="login-input">
+                        <input type="password" name="txtPassword" id="password1" maxlength="32" placeholder="请输入6~32位密码">
+                    </div>
+                    <div class="login-inputSP"><span class="myspan1" id="myspan2"></span></div>
+                    <div class="login-input">
+                        <input type="password" name="txtPassword2" id="password2" maxlength="32" placeholder="重复密码">
+                    </div>
+                    <div class="login-inputSP"><span class="myspan1" id="myspan3"></span></div>
+                    <div class="login-input">
+                        <button type="button" class="btn-reg" id="btnreg">注册</button>
+                    </div>
+                    <div class="login-input">
+                        <a class="to-login">已有账户，马上登录</a>
+                    </div>
+                </form>
+            </div>
+
+            <!--第三个盒子-->
+            <div id="mydiv2-3" style="display:none">
+                <form action="">
+                    <div class="login-input">
+                        <input type="text" id="myphone24" name="txtPhone" maxlength="11" placeholder="请输入手机号码">
+                    </div>
+                    <div class="login-inputSP"><span class="myspan1" id="myspan24"></span></div>
+                    <div class="login-input">
+                        <input type="text" name="txtPassword" id="password24" maxlength="32" placeholder="请输入6~32位密码">
+                    </div>
+                    <div class="login-inputSP"><span class="myspan1" id="myspan25"></span></div>
+                    <div class="login-input">
+                        <button type="button" class="btn-reg" id="btnreg24">登录</button>
+                    </div>
+                    <div class="login-input">
+                        <a class="to-login" href="zhmm.html">忘记密码</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer class="myfooter">
+            <a href="">页脚声明</a>
+        </footer>
+    </div>
+</body>
+<link rel="stylesheet" href="css/index.css">
+<script src="js/common.js"></script>
+<script src="js/index.js"></script>
+<script src="js/register.js"></script>
+<script src="js/login.js"></script>
+
+
+
+</html>

@@ -1,0 +1,145 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.main-bg {
+    background: url('../img/bg_signin.jpg');
+    height: 100%;
+    background-size: 100%;
+}
+
+a {
+    text-decoration: none
+}
+
+.header-bg {
+    height: 60px;
+    width: 100%;
+    background: rgba(127, 74, 136, 0.3);
+}
+
+.header-bg span {
+    color: #fff;
+    font-size: 24px;
+    line-height: 60px;
+    padding-left: 150px;
+}
+
+.main-login-bg {
+    background: rgba(225, 225, 225, 0.1);
+    width: 567px;
+    height: 510px;
+    margin: 0 auto;
+    margin-top: 165px;
+    border-radius: 15px;
+}
+
+.main-login-bg .login-title,
+.main-login-bg .login-input {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.main-login-bg .login-title {
+    padding: 50px 0;
+}
+
+.mya2 {
+    padding: 0 20px 10px 20px;
+    color: #FFFFFF;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.mya1 {
+    padding: 0 20px 10px 20px;
+    color: #7F4A88;
+    font-size: 22px;
+    text-decoration: none;
+    border-bottom: 2px solid #7F4A88;
+}
+
+.main-login-bg .login-input input {
+    border-radius: 5px;
+    border: 1px solid #7F4A88;
+    text-indent: 5px;
+    width: 410px;
+    height: 42px;
+    margin-bottom: 17px;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.main-login-bg .login-input .textcode {
+    width: 289px;
+}
+
+.main-login-bg .login-input .btncode {
+    width: 103px;
+    height: 42px;
+    background-color: #7F4A88;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    border: 1px solid #7F4A88;
+    margin-left: 16px;
+}
+
+.main-login-bg .btn-reg {
+    width: 410px;
+    height: 42px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #7F4A88;
+    border-radius: 3px;
+    border: none;
+}
+
+.main-login-bg .to-login {
+    color: #fff;
+    font-size: 13px;
+}
+
+footer {
+    margin: 0 auto;
+    border-top: 1px solid #fff;
+    height: 60px;
+    text-align: center;
+    margin-top: 220px;
+}
+
+footer a {
+    width: 320px;
+    color: #fff;
+    line-height: 60px;
+}
+
+.myspan1 {
+    font-size: 9px;
+    color: aqua;
+}
+
+.login-inputSP {
+    width: 410px;
+    height: 15px;
+    margin-top: -20px;
+    line-height: 12px;
+    padding-left: 80px;
+}
+
+.newClassName {
+    padding: 0 20px 10px 20px;
+    color: #7F4A88;
+    font-size: 22px;
+    text-decoration: none;
+    border-bottom: 2px solid #7F4A88;
+}
+
+.newClassName1 {
+    padding: 0 20px 10px 20px;
+    color: #FFFFFF;
+    font-size: 22px;
+    border: none;
+}

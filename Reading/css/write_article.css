@@ -1,0 +1,403 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.div-main {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* .div-header {
+    width: 100%;
+    height: 60px;
+    background: #7F4A88;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.20);
+}
+
+.div-header .div-header-a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+    line-height: 60px;
+    padding-left: 150px;
+}
+
+.div-xx {
+    float: right;
+    line-height: 60px;
+}
+
+.div-xx a {
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.div-xx .div-xx-2 {
+    margin-left: 8px;
+}
+
+.div-xx .div-xx-3 {
+    margin-left: 20.5px;
+}
+
+.div-xx .div-xx-4 {
+    margin-left: 47px;
+}
+
+.div-xx .div-xx-5 {
+    margin-left: 7px;
+    margin-right: 20px;
+    cursor: pointer;
+} */
+
+.TW {
+    width: 896px;
+    height: 287px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#myfile {
+    position: absolute;
+    left: -9999px;
+}
+
+#myimg {
+    width: 896px;
+    height: 287px;
+    display: block;
+    background: rgba(218, 207, 219, 0.5);
+}
+
+.mydiv-span {
+    background: url(../img/icon_camrea.png);
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    line-height: 60px;
+    cursor: pointer;
+    position: absolute;
+    top: 70px;
+    left: 430px;
+}
+
+.mydiv-span span {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #222629;
+    letter-spacing: 0;
+}
+
+.myspan {
+    float: left;
+    margin-left: 310px;
+    margin-top: -140px;
+}
+
+.div-nav {
+    width: 998px;
+    height: 790px;
+    margin: 0 auto;
+    margin-top: 57px;
+    background: #FFFFFF;
+    border: 1px solid #F0E9F1;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 0 6px 0 rgba(0, 0, 0, 0.04);
+    border-radius: 2px;
+}
+
+.div-bt {
+    width: 895px;
+    height: 60px;
+    border-bottom: 1px solid #BFA4C3;
+    margin-left: 52px;
+    line-height: 60px;
+}
+
+.div-bt input {
+    width: 895px;
+    height: 30px;
+    border: none;
+    float: left;
+    margin-top: 27px;
+}
+
+.div-zw {
+    width: 895px;
+    height: 395px;
+    margin-left: 53px;
+    text-align: start;
+}
+
+.footer-div {
+    border-top: 1px solid #7F4A88;
+    margin: 0 auto;
+    text-align: center;
+    height: 60px;
+    margin-top: 85px;
+}
+
+.footer-div a {
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 13px;
+    color: #222629;
+}
+
+.my-filess {
+    width: 895px;
+    height: 60px;
+    background-color: aqua;
+    float: left;
+    margin-top: -60px;
+    line-height: 60px;
+    opacity: 0.5;
+    background: #222629;
+    position: relative;
+}
+
+.my-filess span {
+    cursor: pointer;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    position: absolute;
+    left: 400px;
+}
+
+
+/**
+页头
+*/
+
+.head {
+    width: 100%;
+    height: 60px;
+    background: #7F4A88;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.20);
+    position: relative;
+}
+
+.myimg {
+    position: absolute;
+    top: 13px;
+    left: 39px;
+}
+
+.ydxm {
+    position: absolute;
+    left: 150px;
+    font-family: PingFangSC-Regular;
+    line-height: 60px;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.left {
+    float: right;
+    position: relative;
+    width: 400px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.dl {
+    position: absolute;
+    right: 205px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.zc {
+    position: absolute;
+    right: 151px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.imgs {
+    position: absolute;
+    right: 96px;
+    top: 20px;
+}
+
+.xwz {
+    position: absolute;
+    right: 39px;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+
+/**
+第二个head*/
+
+.heads {
+    width: 100%;
+    height: 60px;
+    background: #7F4A88;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.20);
+}
+
+.mydivs {
+    height: 60px;
+    float: left;
+    margin-left: 39px;
+}
+
+.myimgs {
+    margin-top: 15px;
+}
+
+.myspans {
+    float: right;
+    margin-right: 80px;
+    margin-top: 17.5px;
+    font-family: PingFangSC-Regular;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    background-color: #7F4A88;
+}
+
+.right {
+    float: right;
+    width: 500px;
+    height: 60px;
+}
+
+.touxiangs {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.touxians {
+    float: left;
+    margin-top: -10px;
+}
+
+.ximings {
+    float: left;
+    margin-top: 17px;
+    margin-left: 15px;
+    width: 100px;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.txmings {
+    float: left;
+}
+
+.fuceng {
+    float: right;
+    margin-top: 17.5px;
+    margin-right: 120px;
+    position: relative;
+}
+
+.xiewen {
+    float: right;
+}
+
+.write {
+    float: left;
+    margin-top: 17.5px;
+    margin-right: 10px;
+}
+
+.aticle {
+    float: right;
+    margin-top: 17.5px;
+    margin-right: 60px;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    cursor: pointer;
+}
+
+.fuceng .chuangkou {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: #FFFFFF;
+    border: 1px solid #F2EEF3;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.10);
+    opacity: 0;
+}
+
+.fuceng:hover .chuangkou {
+    opacity: 1;
+}
+
+.fuceng:hover .images {
+    transform: rotate(180deg);
+    transition: transform 1s;
+}
+
+.class1,
+.class2,
+.class3 {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.class1 img {
+    margin-top: 10px;
+}
+
+.class1 a,
+.class2 a,
+.class3 a {
+    text-decoration: none;
+    font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: #222629;
+    letter-spacing: 0;
+}
+
+#demo {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background: #FFFFFF;
+    border: 1px solid #F2EEF3;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.10);
+}
+
+#demo:after,
+#demo:before {
+    border: solid transparent;
+    content: ' ';
+    height: 0;
+    left: 100%;
+    position: absolute;
+    width: 0;
+}
+
+#demo:after {
+    border-width: 9px;
+    border-left-color: #FFFFFF;
+    top: 15px;
+}
+
+#demo:before {
+    border-width: 14px;
+    top: 10px;
+}

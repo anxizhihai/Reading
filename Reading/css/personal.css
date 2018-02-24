@@ -1,0 +1,581 @@
+.mydiv {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.mydivDH {
+    width: 100%;
+    height: 60px;
+    background: #7F4A88;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.20);
+}
+
+.mydivDH .span0 {
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 22px;
+    color: #fff;
+    padding-left: 150px;
+}
+
+.WZ {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.Kdiv {
+    width: 1000px;
+    height: 10px;
+}
+
+.TW1 {
+    width: 100%;
+}
+
+footer {
+    margin: 0 auto;
+    border-top: 1px solid #7F4A88;
+    height: 60px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer a {
+    width: 320px;
+    color: #7F4A88;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+.WZYH01 {
+    padding-left: 30px;
+}
+
+.WZYH02 {
+    padding-left: 30px;
+}
+
+.myimg {
+    border-radius: 50%;
+    width: 91px;
+    height: 91px;
+}
+
+.XX {
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.spanmi {
+    position: absolute;
+    left: 410px;
+    top: 60px;
+}
+
+.spanmz {
+    position: absolute;
+    left: 480px;
+    top: 170px;
+}
+
+.spanxz {
+    position: absolute;
+    left: 500px;
+    top: 210px;
+}
+
+.spanxa {
+    position: absolute;
+    left: 440px;
+    top: 210px;
+}
+
+.myimg1 {
+    position: absolute;
+    left: 500px;
+    top: 140px;
+}
+
+.spanmz {
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.spanxa,
+.spanxz {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+
+/**
+导航栏*/
+
+.span6 {
+    width: 350px;
+    height: 60px;
+    float: right;
+    position: relative;
+}
+
+.span5 {
+    position: absolute;
+    right: 10px;
+    line-height: 60px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.span4 {
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    right: 70px;
+    top: 20.5px;
+}
+
+.span3 {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    right: 156px;
+    top: 23.5px;
+}
+
+.span2 {
+    position: absolute;
+    width: 35.5px;
+    height: 22px;
+    right: 179.5px;
+    top: 19px;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+
+.span1 {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 223px;
+    border-radius: 50%;
+    top: 12.5px;
+}
+
+
+/**
+浮窗*/
+
+.fuceng:hover .grzx {
+    display: block;
+}
+
+.grzx {
+    display: none;
+    background: #FFFFFF;
+    border: 1px solid #F2EEF3;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.10);
+    position: absolute;
+    top: 35px;
+    right: 90px;
+    width: 109px;
+    height: 124.7px;
+}
+
+.fuceng {
+    position: relative;
+}
+
+.zhongxin {
+    padding-top: 20px;
+    font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: #222629;
+    letter-spacing: 0;
+}
+
+.shezhi,
+.denglu {
+    margin-top: 15px;
+    font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: #222629;
+    letter-spacing: 0;
+}
+
+.zhongxin img {
+    position: absolute;
+    top: 22px;
+}
+
+.shezhi img {
+    position: absolute;
+    top: 47px;
+}
+
+.denglu img {
+    position: absolute;
+    top: 74px;
+}
+
+.zhongxin span {
+    position: absolute;
+    top: 21px;
+    left: 30px;
+    cursor: pointer;
+}
+
+.shezhi span {
+    position: absolute;
+    top: 48px;
+    left: 30px;
+    cursor: pointer;
+}
+
+.denglu span {
+    position: absolute;
+    top: 75px;
+    left: 30px;
+    cursor: pointer;
+}
+
+
+/**
+页体*/
+
+.article {
+    width: 998px;
+    height: 241px;
+    background: #FFFFFF;
+    border: 1px solid #F0E9F1;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 0 6px 0 rgba(0, 0, 0, 0.04);
+    border-radius: 2px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.left img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.zuozhe {
+    text-decoration: none;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #222629;
+    letter-spacing: 0;
+}
+
+.mydivdong {
+    width: 500px;
+    height: 241px;
+    float: right;
+}
+
+.right1 {
+    float: right;
+    margin-right: 40px;
+    margin-top: -20px;
+}
+
+.biaoti {
+    text-decoration: none;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #222629;
+    letter-spacing: 0;
+}
+
+.yanjing {
+    margin-left: 60px;
+}
+
+.neirong {
+    text-indent: 10px;
+}
+
+.left {
+    position: relative;
+}
+
+.touxiang {
+    position: absolute;
+    top: 30px;
+    left: -90px;
+}
+
+.mingzi {
+    position: absolute;
+    left: -30px;
+    top: 20px;
+}
+
+.shijianmom {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+
+
+/**
+页体结束*/
+
+
+/**
+        第一个head*/
+
+.head {
+    width: 100%;
+    height: 60px;
+    background: #7F4A88;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.20);
+    position: relative;
+}
+
+.myimg {
+    position: absolute;
+    top: 13px;
+    left: 39px;
+}
+
+.ydxm {
+    position: absolute;
+    left: 150px;
+    font-family: PingFangSC-Regular;
+    line-height: 60px;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.left {
+    float: right;
+    position: relative;
+    width: 400px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.dl {
+    position: absolute;
+    right: 205px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.zc {
+    position: absolute;
+    right: 151px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.imgs {
+    position: absolute;
+    right: 96px;
+    top: 20px;
+}
+
+.xwz {
+    position: absolute;
+    right: 39px;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+
+/**
+        第二个head*/
+
+.heads {
+    width: 100%;
+    height: 60px;
+    background: #7F4A88;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.20);
+}
+
+.mydivs {
+    height: 60px;
+    float: left;
+    margin-left: 39px;
+}
+
+.myimgs {
+    margin-top: 15px;
+}
+
+.myspans {
+    float: right;
+    margin-right: 80px;
+    margin-top: 17.5px;
+    font-family: PingFangSC-Regular;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    background-color: #7F4A88;
+}
+
+.right {
+    float: right;
+    width: 500px;
+    height: 60px;
+}
+
+.touxiangs {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.touxians {
+    float: left;
+    margin-top: -10px;
+}
+
+.ximings {
+    float: left;
+    margin-top: 17px;
+    margin-left: 15px;
+    width: 100px;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.txmings {
+    float: left;
+    margin-left: 100px;
+}
+
+.fuceng {
+    float: right;
+    margin-top: 17.5px;
+    margin-right: 80px;
+    position: relative;
+}
+
+.xiewen {
+    float: right;
+}
+
+.write {
+    float: left;
+    margin-top: 17.5px;
+    margin-right: 10px;
+}
+
+.aticle {
+    float: right;
+    margin-top: 17.5px;
+    margin-right: 60px;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.imagespit {
+    width: 396px;
+    height: 241px;
+}
+
+.aticlea {
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+
+.fuceng .chuangkou {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: #FFFFFF;
+    border: 1px solid #F2EEF3;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.10);
+    opacity: 0;
+}
+
+.fuceng:hover .chuangkou {
+    opacity: 1;
+}
+
+.fuceng:hover .images {
+    transform: rotate(180deg);
+    transition: transform 1s;
+}
+
+.class1,
+.class2,
+.class3 {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.class1 img {
+    margin-top: 10px;
+}
+
+.class1 a,
+.class2 a,
+.class3 a {
+    text-decoration: none;
+    font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: #222629;
+    letter-spacing: 0;
+}
+
+#demo {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background: #FFFFFF;
+    border: 1px solid #F2EEF3;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.10);
+}
+
+#demo:after,
+#demo:before {
+    border: solid transparent;
+    content: ' ';
+    height: 0;
+    left: 100%;
+    position: absolute;
+    width: 0;
+}
+
+#demo:after {
+    border-width: 9px;
+    border-left-color: #FFFFFF;
+    top: 15px;
+}
+
+#demo:before {
+    border-width: 14px;
+    top: 10px;
+}
+
+.loading {
+    margin-left: 700px;
+    margin-top: 30px;
+}

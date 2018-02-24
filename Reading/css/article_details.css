@@ -1,0 +1,603 @@
+body,
+html {
+    margin: o;
+    padding: 0;
+}
+
+.div1 {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.section {
+    width: 907px;
+    margin: 0 auto;
+}
+
+.header,
+.header1 {
+    width: 100%px;
+    height: 60px;
+    background: rgba(127, 74, 136, 0.3);
+}
+
+.FD {
+    float: right;
+}
+
+.div2 {
+    width: 906px;
+    margin: 0 auto;
+    margin-top: 67px;
+}
+
+.div2 .FX1 {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.span1 {
+    width: 297px;
+    height: 25px;
+    font-size: 18px;
+    color: #222629;
+}
+
+.span2 {
+    margin-left: 50px;
+    width: 13.5px;
+    height: 15px;
+}
+
+.div3 {
+    width: 906px;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 37px;
+    position: relative;
+}
+
+.div3 .div3-1 {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+}
+
+.div3 .div3-2 {
+    font-size: 14px;
+    color: #222629;
+    font-family: PingFangSC-Regular;
+    margin-left: 11px;
+}
+
+.div3 .div3-3 {
+    font-size: 14px;
+    color: #222629;
+    font-family: PingFangSC-Regular;
+    margin-left: 20px;
+}
+
+.div3 .div3-4 {
+    width: 15px;
+    height: 16px;
+    margin-left: 99px;
+}
+
+.div3 .div3-5 {
+    width: 17px;
+    height: 20px;
+    margin-left: 11px;
+}
+
+.div4 {
+    width: 906px;
+    margin: 0 auto;
+    margin-top: 37px;
+}
+
+.div5 {
+    width: 906px;
+    margin: 0 auto;
+    margin-top: 37px;
+}
+
+.div5 p {
+    font-size: 14px;
+    color: #222629;
+    line-height: 24px;
+}
+
+.div6 {
+    width: 906px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.div6 p {
+    font-size: 14px;
+    color: #222629;
+    line-height: 24px;
+}
+
+.div7 {
+    width: 906px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-top: 1px solid #7F4A88;
+}
+
+.div7 .div7-p p {
+    font-size: 14px;
+    padding-top: 31px;
+    padding-bottom: 28px;
+}
+
+.div8 {
+    width: 88px;
+    float: right;
+    margin-top: 10px;
+}
+
+.div9 {
+    width: 906px;
+    margin: 0 auto;
+    margin-top: 67px;
+}
+
+.div10 {
+    width: 906px;
+    margin: 0 auto;
+}
+
+.header .yuedu span {
+    font-size: 22px;
+    color: #FFFFFF;
+    line-height: 60px;
+    padding-left: 150px;
+}
+
+.FD a {
+    line-height: 60px;
+}
+
+.FD .FD-a1,
+.FD .FD-a2 {
+    font-size: 14px;
+    color: #fff;
+    margin-left: 29px;
+}
+
+.FD .FD-a3 {
+    font-size: 16px;
+    color: #fff;
+    margin-right: 39px;
+}
+
+.FD .FD-img1 {
+    width: 19px;
+    height: 19px;
+    margin-left: 19px;
+}
+
+.div10 .div10-1,
+.div11 .div11-1,
+.div12 .div12-1 {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.div10 .div10-2,
+.div11 .div11-2,
+.div12 .div12-2 {
+    margin-left: 11px;
+    display: inline-block;
+}
+
+.div10 .div10-3,
+.div11 .div11-3,
+.div12 .div12-3 {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.div10 .div10-4,
+.div11 .div11-4,
+.div12 .div12-4 {
+    margin-left: 33px;
+    display: inline-block;
+}
+
+.div10 .div10-5,
+.div11 .div11-5,
+.div12 .div12-5 {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.div10 .div10-6 p,
+.div11 .div11-6 p,
+.div12 .div12-6 p {
+    width: 906px;
+    height: 17px;
+    margin-top: 20px;
+    text-indent: 35px;
+}
+
+.div12,
+.div11,
+.div10 {
+    border-top: 1px solid #7F4A88;
+}
+
+.footer {
+    width: 1510px;
+    height: 69px;
+    border-top: 1px solid #7F4A88;
+}
+
+.foort p {
+    font-size: 13px;
+    color: #222629;
+}
+
+.footer .footer-span {
+    width: 488px;
+    height: 18px;
+    text-align: center;
+    line-height: 69px;
+}
+
+.myimg3,
+.myimg2,
+.myimg1 {
+    border-radius: 50%;
+}
+
+.FX1 {
+    opacity: 0.7;
+    font-size: 14px;
+    color: #7F4A88;
+    line-height: 14px;
+    background-color: #7F4A88;
+    cursor: pointer;
+}
+
+.yc {
+    display: none;
+    position: absolute;
+    left: 650px;
+}
+
+.mydiv:hover .yc {
+    display: block;
+}
+
+.myimg {
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+}
+
+.div3-2 {
+    position: absolute;
+    left: 60px;
+    top: 10px;
+}
+
+.div3-3 {
+    position: absolute;
+    left: 120px;
+    top: 10px;
+}
+
+.div3-4 {
+    position: absolute;
+    left: 180px;
+    top: 10px;
+}
+
+.div3-5 {
+    position: absolute;
+    left: 240px;
+    top: 10px;
+}
+
+
+/* .mytext {
+    margin-right: 800px;
+} */
+
+.mydivpl {
+    position: relative;
+    width: 908px;
+    height: 106px;
+    border-top: 1px solid
+}
+
+.mydivpl1 {
+    width: 600px;
+    height: 50px;
+    position: relative;
+}
+
+.divplimg {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: -1px;
+}
+
+.xingming {
+    position: absolute;
+    left: 50px;
+    top: 15px;
+}
+
+.times {
+    position: absolute;
+    left: 150px;
+    top: 15px;
+}
+
+.imgs {
+    position: absolute;
+    left: 280px;
+    top: 15px;
+}
+
+.dianzan {
+    position: absolute;
+    left: 300px;
+    top: 15px;
+}
+
+.pinglun {
+    font-size: 14px;
+    color: #222629;
+    letter-spacing: 0;
+    margin-left: 45px;
+}
+
+
+/**
+        第一个head*/
+
+.head {
+    width: 100%;
+    height: 60px;
+    background: #7F4A88;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.20);
+    position: relative;
+}
+
+.myimg {
+    position: absolute;
+    top: 13px;
+    left: 39px;
+}
+
+.ydxm {
+    position: absolute;
+    left: 150px;
+    font-family: PingFangSC-Regular;
+    line-height: 60px;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.left {
+    float: right;
+    position: relative;
+    width: 400px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.dl {
+    position: absolute;
+    right: 205px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.zc {
+    position: absolute;
+    right: 151px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.imgs {
+    position: absolute;
+    right: 96px;
+    top: 20px;
+}
+
+.xwz {
+    position: absolute;
+    right: 39px;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+
+/**
+        第二个head*/
+
+.heads {
+    width: 100%;
+    height: 60px;
+    background: #7F4A88;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.20);
+}
+
+.mydivs {
+    height: 60px;
+    float: left;
+    margin-left: 39px;
+}
+
+.myimgs {
+    margin-top: 15px;
+}
+
+.myspans {
+    float: right;
+    margin-right: 80px;
+    margin-top: 17.5px;
+    font-family: PingFangSC-Regular;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    background-color: #7F4A88;
+}
+
+.right {
+    float: right;
+    width: 500px;
+    height: 60px;
+}
+
+.touxiangs {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.touxians {
+    float: left;
+    margin-top: -10px;
+}
+
+.ximings {
+    float: left;
+    margin-top: 17px;
+    margin-left: 15px;
+    width: 100px;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.txmings {
+    float: left;
+    margin-left: 100px;
+}
+
+.fuceng {
+    float: right;
+    margin-top: 17.5px;
+    margin-right: 80px;
+    position: relative;
+}
+
+.xiewen {
+    float: right;
+}
+
+.write {
+    float: left;
+    margin-top: 17.5px;
+    margin-right: 10px;
+}
+
+.aticle {
+    float: right;
+    margin-top: 17.5px;
+    margin-right: 60px;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.fuceng .chuangkou {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: #FFFFFF;
+    border: 1px solid #F2EEF3;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.10);
+    opacity: 0;
+}
+
+.fuceng:hover .chuangkou {
+    opacity: 1;
+}
+
+.fuceng:hover .images {
+    transform: rotate(180deg);
+    transition: transform 1s;
+}
+
+.class1,
+.class2,
+.class3 {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.class1 img {
+    margin-top: 10px;
+}
+
+.class1 a,
+.class2 a,
+.class3 a {
+    text-decoration: none;
+    font-family: PingFangSC-Regular;
+    font-size: 13px;
+    color: #222629;
+    letter-spacing: 0;
+}
+
+#demo {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background: #FFFFFF;
+    border: 1px solid #F2EEF3;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.10);
+}
+
+#demo:after,
+#demo:before {
+    border: solid transparent;
+    content: ' ';
+    height: 0;
+    left: 100%;
+    position: absolute;
+    width: 0;
+}
+
+#demo:after {
+    border-width: 9px;
+    border-left-color: #FFFFFF;
+    top: 15px;
+}
+
+#demo:before {
+    border-width: 14px;
+    top: 10px;
+}
+
+.loading {
+    margin-left: 700px;
+    margin-top: 10px;
+}

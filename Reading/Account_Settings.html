@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>账户设置</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <!--大盒子-->
+    <div class="div1">
+        <!--页头-->
+        <!--第一个-->
+        <header class="head" id="head" style="display:none">
+            <img class="myimg" src="img/apis.png">
+            <span class="ydxm">悦读项目</span>
+
+            <div class="left">
+                <a class="dl" href="index.html">登陆</a>
+                <a class="zc" href="index.html">注册</a>
+                <img class="imgs" src="img/icon_write.png">
+                <a class="xwz" href="write_article.html">写文章</a>
+            </div>
+        </header>
+        <!--第二个-->
+        <header class="heads" id="heads">
+            <div class="mydivs">
+                <img class="myimgs" src="img/apis.png">
+                <span class="myspans">阅读项目</span>
+            </div>
+            <!--头像信息等-->
+            <div class="right">
+                <div class="txmings">
+                    <div class="touxians"> <img class="touxiangs" id="myimgs" src="img/1.png"></div>
+                    <div id="ximings" class="ximings">姓名</div>
+                </div>
+                <!--写文章-->
+                <div class="xiewen">
+                    <div class="write"> <img src="img/icon_write.png"></div>
+                    <div class="aticle"> <span> <a href="write_article.html">写文章</a></span> </div>
+                </div>
+                <!--浮层-->
+                <div class="fuceng">
+                    <div> <img class="images" src="img/icon_arrow_down.png"></div>
+                    <div class="chuangkou">
+                        <div class="class1"> <img src="img/icon_user.png"> <a href="personal.html">个人中心</a></div>
+                        <div class="class2"> <img src="img/icon_setting.png"> <a href="Account_Settings.html">账户设置</a></div>
+                        <div class="class3"> <img src="img/icon_exit.png"> <a href="" id="tuideng">退出登录</a></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="SZ">
+            <a href="">账户设置</a>
+        </div>
+        <!--页体-->
+        <section class="sections">
+            <!--修改密码框里的内容，包括标题加表单-->
+            <div class="K"></div>
+            <div class="div2">
+                <form class="myforms" action="" enctype=" multipart/form-data">
+                    <div class="div-main">
+                        <div class="mytx">头像:</div>
+                        <div class="TW">
+                            <label for="myfile">
+                           <span class="myspan1"> <img id="myimg"></span>
+                            <input type="file" name="" id="myfile" onchange="mypit()">
+                            <span class="myspan">上传头像</span>
+                            <label>
+                        </div>
+                </div>
+                    <div class="myforms-2">
+                        <a class="myforms-2-1"> 昵称：</a>
+                        <input class="myforms-2-2" id="yanzheng01" style="width:220px; height:36px;" type="text" placeholder="请输入昵称" ; maxlength="6" ; onkeyup="yanzheng1()">
+                        <span id="yanzheng1"></span>
+                    </div>
+                    <!-- <div class="myforms-3">
+                        <a class="myforms-3-1">性别：</a>
+                        <input class="myforms-3-2" type="radio" checked="checked" name="2" value="man">男<input class="myforms-3-3" type="radio" name="2" value="woman">女 </div> -->
+                        <div class="radiomain">
+                                <a class="myforms-3-1">性别：</a>
+                                <!--第一个div男-->
+                                <div class="radio-man">
+                                    <div class="mydivra" id="mydivra">
+                                        <input type="radio" name="sex" checked="checked" value="man">男
+                                    </div>
+                                    <label for="mydivra">
+                                <div id="div-on">
+                            <div id="mydiv1" >
+                                <img src="img/icon_choose.png" id="myimg2" class="myimg2" >
+                            </div>
+                            <div id="mydiv2" style="display:none">
+                                <img src="img/icon_unchoose.png" id="myimg1" class="myimg1">
+                            </div>
+                            <span class="mans">男</span>
+                            
+                            </div>
+                            </label>
+                        </div>
+                        <!--第二个div女-->
+                        <div class="radio-woman">
+                            <div class="mydivra1" id="mydivra1">
+                                <input type="radio" name="sex" value="woman">女
+                            </div>
+                            <label>
+                            <div id="div-on1">
+                            <div id="mvdiv3"  style="display:none" >
+                                    <img src="img/icon_choose.png" id="myimg2" class="myimg2">
+                            </div> 
+                            <div id="mydiv4" >
+                                    <img src="img/icon_unchoose.png" id="myimg1" class="myimg1">
+                                </div>   
+                                <span class="women">女</span>
+                                
+                            </div>
+                        </label>
+                        </div>
+                    </div>
+                    <div class="myforms-4">
+                        <a class="myforms-4-1">星座：</a>
+                        <select id="myselect" class="myforms-4-2" style="width:220px; height:36px;">
+                    </select>
+                    </div>
+                    <!--级动div-->
+                    <div class="item"><span class="left1">城市:</span>
+                        <select name="" id="province" class="province"></select>
+                    </div>
+                    <!--密码div-->
+                    <div class="myforms-5">
+                        <a class="myforms-5-1">密码：</a>
+                        <input class="myforms-5-2" id="mima01" type="text" placeholder="请输入6~16个字符" style="width:220px; height:36px;" maxlength="16" ; onkeyup="mimayanzheng()"><span id="mima1"></span>
+                    </div>
+                    <div class="myforms-6">
+                        <input class="myforms-6-1" id="mybutton" type="button" value="确定" style="width:220px; height:36px;"></div>
+                </form>
+            </div>
+        </section>
+        <!--页尾-->
+        <footer class="footers ">
+            <a class="footers-a">Copyright©2017apis.sh All Rights Reserved|陕ICP备15013925号-3
+                </a>
+        </footer>
+</body>
+<link rel="stylesheet" href="css/Account_Settings.css">
+<script src="js/common1.js"></script>
+<script src="js/common.js"></script>
+<script src="js/Account_Settings.js"></script>
+<script src="js/Account_Settingsstyle.js"></script>
+<script src="js/sanji.js"></script>
+
+</html>
